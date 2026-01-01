@@ -1,0 +1,49 @@
+@media screen and (max-width: 479px) {
+   
+  .wrapper {
+    width: 100%;
+  }
+
+  .header {
+    justify-content: center; 
+    width: 200px;
+    height: 200px;
+    }       
+
+  .white {
+    margin-right: 0;        
+    flex-direction: column;
+    gap: 20px;             
+  }
+
+  .green {
+    width: 40px;
+    height: 40px;
+  }
+
+    .main {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left {
+    width: 200px;
+    height: 100px;
+    margin: 0 auto; 
+  }
+
+ 
+  .right {
+    width: 200px;
+    padding: 20px 30px; 
+    box-sizing: border-box;
+  }
+
+
+
+  .footer{
+    width: 200px;
+    height: 100px;
+  }
+
+}
