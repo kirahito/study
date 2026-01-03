@@ -3,9 +3,20 @@
         width: 300px;
     }
 
+    .haeder{
+        width: 300px;
+    }
+
+    .main{
+        width: 300px;
+        display: flex;
+    }
+
     .left{
         width: 100px;
+        flex-shrink: 0;
     }
+
 
     .red{
         width: 75px;
@@ -18,27 +29,79 @@
     .pink{
         width: 125px;
     }
+
+    .right-top{
+        display: flex;
+    }
+
+    .right{
+        width: 200px;
+    }
+
+  
+
+    .footer{
+        width: 300px;
+    }
 }
 
 @media screen and (max-width: 479px){
+
     .wrapper{
-    width: 150px;
+        width: 150px;
     }
 
-    .contents{
-        float: none;
+    .haeder{
+        height: 100px;
+        width: 150px;
     }
 
+    
     .main{
+        display: block;
+    }
+
+    .left{
+        width: 150px;
         height: 100px;
     }
 
+    .right{
+        width: 150px;
+        display: block;
+        height: auto;
+    }
+
+    .right-top{
+        display: block;
+        height: auto;
+    }
+
     .green{
+        width: 150px;
         height: 50px;
     }
 
-}
+    .red{
+        width: 150px;
+        height: 100px;
+    }
 
+    .pink{
+        width: 150px;
+        height: 100px;
+    }
+
+    .yellow{
+        width: 150px;
+        height: 100px;
+    }
+
+    .footer{
+        width: 150px;
+        height: 100px;
+    }
+}
 
 
 
